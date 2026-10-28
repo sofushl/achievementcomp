@@ -7,3 +7,4 @@ scoreboard players set #duration comp.const 144000
 scoreboard objectives setdisplay list comp.left
 scoreboard objectives setdisplay sidebar comp.adv
 schedule function comp:count 1s
+
