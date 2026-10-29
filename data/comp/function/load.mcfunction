@@ -17,6 +17,8 @@ scoreboard players set #offset comp.const 20
 scoreboard players operation #offset comp.const *= #ticksPerMin comp.const
 scoreboard players operation #pvp2 comp.const = #duration comp.const
 scoreboard players operation #pvp2 comp.const -= #offset comp.const
+setworldspawn 250 126 250
+gamerule respawn_radius 25
 scoreboard objectives setdisplay list comp.left
 scoreboard objectives setdisplay sidebar comp.adv
 schedule function comp:count 1s

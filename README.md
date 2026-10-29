@@ -54,7 +54,7 @@ adventure mode, and the pack moves them to survival at the start.
 
 | Function | Runs | Job |
 |---|---|---|
-| `load` | on load or `reload` | Creates the scoreboards and the display slots. |
+| `load` | on load or `reload` | Creates the scoreboards and the display slots. Sets the world spawn, so new players never start underground. |
 | `setup` | manually | Resets scores, sets border, spawn and time. |
 | `start` | manually | Resets players, expands the border, zeroes `#timer`, starts. |
 | `tick` | every tick | Advances the clock, updates minutes left, calls `timeup` at `#duration`. |
