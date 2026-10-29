@@ -66,7 +66,7 @@ generated check per advancement (recipes excluded). Offline players keep their
 last count on the sidebar.
 
 **Changing the length:** set `#duration` (in ticks, 144000 = 2 hours) in
-`load.mcfunction`, then `reload`.
+`load.mcfunction`, then `reload`. If applicable, also update the PVP offsets (80, 60 and 20 minutes before the end) in `load.mcfunction` and the PVP chat messages in `pvp_on` and `pvp_off`.
 
 **New Minecraft version:** run `scripts/gen-count.sh path/to/server.jar` (vanilla
 or Paper/Purpur jar), and update `min_format`/`max_format` in `pack.mcmeta`.

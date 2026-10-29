@@ -8,3 +8,6 @@ scoreboard players operation #left comp.time /= #ticksPerMin comp.const
 scoreboard players operation @a comp.left = #left comp.time
 execute unless score #left comp.time = #shown comp.time run function comp:title
 execute if score #timer comp.time >= #duration comp.const run function comp:timeup
+execute if score #timer comp.time = #pvp1 comp.const run function comp:pvp_on
+execute if score #timer comp.time = #pvpend comp.const run function comp:pvp_off
+execute if score #timer comp.time = #pvp2 comp.const run function comp:pvp_on
