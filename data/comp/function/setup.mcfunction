@@ -1,5 +1,4 @@
-# Call with: function comp:setup {x:<int>,y:<int>,z:<int>}
 $worldborder center $(x) $(z)
-worldborder set 750
+worldborder set 25
 $setworldspawn $(x) $(y) $(z)
 gamerule spawn_radius 25
