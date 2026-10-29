@@ -1,6 +1,6 @@
 worldborder center 250 250
 worldborder set 25
-setworldspawn 250 123 250
+setworldspawn 250 126 250
 gamemode adventure @a
 gamerule respawn_radius 25
 scoreboard players reset * comp.adv
