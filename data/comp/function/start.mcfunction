@@ -1,3 +1,4 @@
+time set 0
 advancement revoke @a everything
 clear @a
 xp set @a 0 levels
